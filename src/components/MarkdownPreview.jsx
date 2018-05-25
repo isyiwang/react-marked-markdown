@@ -1,9 +1,9 @@
-import React from 'react';
-import marked from 'marked';
-import hljs from 'highlight.js';
-import PropTypes from 'prop-types';
-import createDOMPurify from 'dompurify';
 import { JSDOM } from 'jsdom';
+import PropTypes from 'prop-types';
+import React from 'react';
+import createDOMPurify from 'dompurify';
+import hljs from 'highlight.js';
+import marked from 'marked';
 
 // Initializing DOM Purify
 const window = (new JSDOM('')).window;

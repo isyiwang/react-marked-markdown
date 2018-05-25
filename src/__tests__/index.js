@@ -1,7 +1,7 @@
-import { MarkdownPreview } from '../index';
 import React from 'react';
-import { expect } from 'chai';
 import { shallow } from 'enzyme';
+import { expect } from 'chai';
+import { MarkdownPreview } from '../index';
 
 const { describe, it } = global;
 
